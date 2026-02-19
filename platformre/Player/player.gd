@@ -139,9 +139,9 @@ func _physics_process(delta: float) -> void:
 	elif Input.is_action_pressed("grab") and (left_ray.is_colliding() or right_ray.is_colliding()) and not is_wall_climbing and not jump_timer:
 		is_wall_climbing = true
 		if left_ray.is_colliding():
-			position.x -= 1
+			position.x -= 3
 		else:
-			position.x += 1
+			position.x += 3
 		velocity = Vector2.ZERO
 		if facing > 0:
 			anim_player.play("climb_right")
