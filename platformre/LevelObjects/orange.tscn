@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c4gya84hdj8yi"]
 
 [ext_resource type="Script" uid="uid://d3hae7jxamimg" path="res://LevelObjects/orange.gd" id="1_wh4jq"]
-[ext_resource type="Texture2D" uid="uid://6tgfuhb3baf6" path="res://orange.png" id="1_x2pm3"]
+[ext_resource type="Texture2D" uid="uid://6tgfuhb3baf6" path="res://LevelObjects/orange.png" id="1_x2pm3"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_wh4jq"]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyt5k6mt126s"
-path="res://.godot/imported/sand_2.webp-76965b596e8ac48d876497fa4a58315a.ctex"
+uid="uid://c25x3rjtmoi63"
+path="res://.godot/imported/flag.png-4264e211a4e1d64c0e09ca8b9a54149b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sand_2.webp"
-dest_files=["res://.godot/imported/sand_2.webp-76965b596e8ac48d876497fa4a58315a.ctex"]
+source_file="res://LevelObjects/flag.png"
+dest_files=["res://.godot/imported/flag.png-4264e211a4e1d64c0e09ca8b9a54149b.ctex"]
 
 [params]
 

@@ -1,14 +1,19 @@
 [gd_scene format=3 uid="uid://5w3cebcdye1g"]
 
 [ext_resource type="Script" uid="uid://dwg5gp75lnkbx" path="res://LevelObjects/finish.gd" id="1_xc86n"]
+[ext_resource type="Texture2D" uid="uid://c25x3rjtmoi63" path="res://LevelObjects/flag.png" id="2_lt1tf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u8eye"]
-size = Vector2(9, 16)
+size = Vector2(21.5, 31)
 
 [node name="Finish" type="Area2D" unique_id=204587410]
 script = ExtResource("1_xc86n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=396249342]
+position = Vector2(0.25, 0.5)
 shape = SubResource("RectangleShape2D_u8eye")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1842360246]
+texture = ExtResource("2_lt1tf")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

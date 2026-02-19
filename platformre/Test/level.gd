@@ -23,7 +23,7 @@ func _process(delta: float) -> void:
 		var tween = create_tween()
 		tween.tween_property(camera, "position", screen_top_corner, 0.4).set_trans(Tween.TRANS_SINE)
 func level_end():
-	pass
+	get_tree().quit()
 
 func level_reset():
 	player.global_position = player_spawn.global_position

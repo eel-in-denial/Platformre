@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bckb5c0u0unku"]
 
 [ext_resource type="Script" uid="uid://c3hpkx6fin0jf" path="res://LevelObjects/spikes.gd" id="1_7lyu2"]
+[ext_resource type="Texture2D" uid="uid://bq6n0jsaulhay" path="res://LevelObjects/spike.png" id="2_esdkf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wt4qj"]
 size = Vector2(8, 8)
@@ -9,6 +10,7 @@ size = Vector2(8, 8)
 script = ExtResource("1_7lyu2")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=461898553]
+texture = ExtResource("2_esdkf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=617097982]
 shape = SubResource("RectangleShape2D_wt4qj")

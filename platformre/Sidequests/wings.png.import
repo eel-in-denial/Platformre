@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6tgfuhb3baf6"
-path="res://.godot/imported/orange.png-da4f4a6dd8e149060a376402fc6e1df5.ctex"
+uid="uid://ebpqepr4iiob"
+path="res://.godot/imported/wings.png-a2356decf8f9e482b470976cc7b8e366.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://orange.png"
-dest_files=["res://.godot/imported/orange.png-da4f4a6dd8e149060a376402fc6e1df5.ctex"]
+source_file="res://Sidequests/wings.png"
+dest_files=["res://.godot/imported/wings.png-a2356decf8f9e482b470976cc7b8e366.ctex"]
 
 [params]
 
