@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c4gya84hdj8yi"]
+
+[ext_resource type="Script" uid="uid://d3hae7jxamimg" path="res://LevelObjects/orange.gd" id="1_wh4jq"]
+[ext_resource type="Texture2D" uid="uid://6tgfuhb3baf6" path="res://orange.png" id="1_x2pm3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wh4jq"]
+
+[node name="Orange" type="Area2D" unique_id=1629593940]
+script = ExtResource("1_wh4jq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=396489452]
+shape = SubResource("CircleShape2D_wh4jq")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=776707561]
+texture = ExtResource("1_x2pm3")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
